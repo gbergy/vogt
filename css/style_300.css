@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 8px;
+}
+
+a:hover {
+	color: #86AEBD;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-size: 63.5%;
+	font-family: arial, sans-serif;
+	/* wiki colors */
+	background-color: #0720F4;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 11%;
+	z-index: 99;
+	background-color: #0720F4;
+}
+
+.navbar {
+	display: inline-block;
+	font-size: 22px;
+	float: right;
+}
+
+.navbar li {
+	display: inline-block;
+}
+
+.box {
+	width: 17%;
+	max-width: 17%;
+	height: auto;
+	float: left;
+	position: relative;
+	margin: 69px 14px 10px 14px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.box h4 {
+	margin: 20px 0;
+	font-size: 10px;
+}
+
+.verticalLine {
+	border-left: medium solid #FFFFFF;
+	height: 75%;
+	/*margin-left: 1%;
+	margin-top: 23%;*/
+	display: inline;
+	position: absolute;
+}
+
+.smallScreen {
+	margin-top: 25px;
+}
