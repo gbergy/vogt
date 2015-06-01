@@ -36,6 +36,10 @@ nav {
 	background-color: #0720F4;
 }
 
+nav a img {
+	margin: 20px;
+}
+
 .wrapper {
 	font-size: 1.6em;
 	padding: 2em;
