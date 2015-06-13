@@ -8,7 +8,7 @@
 
 a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #0720F4;
 	font-size: 10px;
 }
 
@@ -24,7 +24,6 @@ body {
 	font-size: 63.5%;
 	font-family: arial, sans-serif;
 	/* wiki colors */
-	background-color: #0720F4;
 }
 
 nav {
@@ -33,6 +32,10 @@ nav {
 	width: 100%;
 	height: 68px;
 	z-index: 99;
+	background-color: #FFF;
+}
+
+.nav_home {
 	background-color: #0720F4;
 }
 
@@ -42,6 +45,15 @@ nav {
 	width: 100%;
 	position: relative;
 	height: auto;
+	background-color: #FFF;
+}
+
+.wrapper_home {
+	background-color: #0720F4;
+}
+
+.wrapper_home a {
+	color: #FFF;
 }
 
 .navbar {
@@ -55,29 +67,39 @@ nav {
 }
 
 .box {
-	width: 15%;
-	max-width: 15%;
-	height: auto;
+	width: 16%;
+	max-width: 17%;
+	height: 100%;
 	float: left;
 	position: relative;
-	margin: 0 7px 10px 20px;
+	margin: 22px 7px 10px 20px;
 	font-size: 12px;
-	color: #FFFFFF;
+	color: #0720F4;
+	background-color: #FFF;
+}
+
+.border {
+	border-right: 5px solid #0720F4;
+	position: relative;
+}
+
+.box_home {
+	color: #FFF;
+	border-right: 3px solid #FFF;
+	margin: 0 7px 10px 20px;
+	background-color: #0720F4;
 }
 
 .box h4 {
 	margin: 20px 0;
 }
 
-.verticalLine {
-	border-left: medium solid #FFFFFF;
-	height: 500px;
-	margin-top: 22px;
-	display: inline;
-	position: absolute;
-}
-
 .logo {
 	width: 25%;
-	height: 45%;
+	height: 75%;
+}
+
+.main p img {
+	width: 98%;
+	height: 98%;
 }

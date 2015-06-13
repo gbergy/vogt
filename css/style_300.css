@@ -8,7 +8,7 @@
 
 a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #0720F4;
 	font-size: 8px;
 }
 
@@ -24,7 +24,6 @@ body {
 	font-size: 63.5%;
 	font-family: arial, sans-serif;
 	/* wiki colors */
-	background-color: #0720F4;
 }
 
 nav {
@@ -33,15 +32,27 @@ nav {
 	width: 100%;
 	height: 68px;
 	z-index: 99;
+	background-color: #FFF;
+}
+
+.nav_home {
 	background-color: #0720F4;
 }
 
 .wrapper {
 	font-size: 1.6em;
-	margin-top: 2%;
+	margin-top: -6%;
 	width: 100%;
 	position: relative;
 	height: auto;
+}
+
+.wrapper_home {
+	background-color: #0720F4;
+}
+
+.wrapper_home a {
+	color: #FFF;
 }
 
 .navbar {
@@ -55,36 +66,56 @@ nav {
 }
 
 .box {
-	width: 17%;
-	max-width: 17%;
+	width: 26%;
+	max-width: 27%;
 	height: auto;
 	float: left;
 	position: relative;
 	margin: 10px 18px 10px 8px;
 	font-size: 16px;
-	color: #FFFFFF;
 	display: inline;
-
+	color: #0720F4;
 }
+
+.border {
+	border-right: 5px solid #0720F4;
+	position: relative;
+}
+
+.box_home {
+	color: #FFF;
+	border-right: 2px solid #FFF;
+}
+
 
 .box h4 {
 	margin: 20px 0;
 	font-size: 10px;
 }
 
-.verticalLine {
+
+/*.verticalLine {
 	border-left: medium solid #FFFFFF;
 	height: 470px;
 	margin-top: 31px;
 	display: inline;
 	position: absolute;
-}
+}*/
 
 .smallScreen {
 	margin-top: 25px;
 }
 
 .logo {
-	width: 31%;
-	height: 44%;
+	width: 40%;
+	height: 75%;
+}
+
+.main {
+	margin: 5% 10% 0 25%;
+}
+
+.main p img {
+	width: 90%;
+	height: 90%;
 }
